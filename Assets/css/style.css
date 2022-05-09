@@ -1,0 +1,47 @@
+:root {
+    --yellow: #FFFF00;
+    --yellow-inactive: #F8F184;
+    --blue: #19587D;
+    --red: #B11313;
+    --black: #0D0E09;
+    --grey: #C4C4C4;
+    --pure-black: #000000;
+    --pure-white: #FFFFFF;
+    --blue-gradient: linear-gradient(210deg, #d4d1c9 6%, #0667a0 100%);
+    --blue-gradient-hover: linear-gradient(to right, #dfd0b3 100%, #14567c 100%);
+    --red-gradient: linear-gradient(270deg, rgba(122, 1, 9, 0.6) 0%, rgba(238, 220, 206, 0.4) 100%);
+    --red-gradient-hover: linear-gradient(to right, #dfcfb0 100%, #7a0109 100%);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background: url(../Illustrations/Home/Bathome1.png) center no-repeat;
+    background-size: cover;
+    height: 150vh;
+}
+
+hr {
+    color: white;
+}
+
+.background {
+    background: url(../Illustrations/Home/Batslider1.png);
+    height: 80vh;
+}
+
+.iframe {
+    width: 1069px;
+    height: 500px;
+}
+
+.bg-bleu {
+    background: var(--blue-gradient);
+}
+
+.card-body {
+    background: var(--blue-gradient);
+}
